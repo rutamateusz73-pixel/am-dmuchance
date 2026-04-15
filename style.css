@@ -730,6 +730,12 @@ footer {
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 900px) {
+  .nav-actions .nav-cta { display: none !important; }
+  .nav-actions .btn-fb { display: none; }
+  nav { gap: 12px; }
+  .logo { font-size: 1.3rem; }
+  .logo-img { width: 36px; height: 36px; }
+  .nav-actions { margin-left: auto; }
   .hero-inner { grid-template-columns: 1fr; }
   .hero-visual { order: -1; }
   .castle-img-placeholder { max-width: 300px; margin: 0 auto; }
