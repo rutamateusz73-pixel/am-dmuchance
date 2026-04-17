@@ -764,7 +764,10 @@ footer {
   .logo-img { width: 36px; height: 36px; }
   .nav-actions { margin-left: auto; }
   .hero-inner { grid-template-columns: 1fr; }
-  .hero-visual { order: -1; }
+  .hero-visual { 
+    order: -1; 
+    padding-left: 0 !important;
+  }
   .castle-img-placeholder { max-width: 300px; margin: 0 auto; }
   .bubble-1, .bubble-3 { left: 0; }
   .bubble-2 { right: 0; }
